@@ -3,19 +3,19 @@
 import './App.css';
 // import Ejemplo1 from './hooks/Ejemplo1';
 // import Ejemplo2 from './hooks/Ejemplo2';
-import { MiComponenteConContexto } from './hooks/Ejemplo3';
-// import TaskListComponent from './components/container/task.list';
+// import { MiComponenteConContexto } from './hooks/Ejemplo3';
+import TaskListComponent from './components/container/task.list';
 
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
+      {/* <div className="App-header"> */}
       {/* <GreetingF name="Charly"/> */}
-      {/* <TaskListComponent/> */}
       {/* <Ejemplo1/> */}
       {/* <Ejemplo2/>  */}
-      <MiComponenteConContexto/>
-      </div>
+      {/* <MiComponenteConContexto/> */}
+      {/* </div> */}
+     <TaskListComponent/>
     </div>
   );
 }
