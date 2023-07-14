@@ -5,6 +5,7 @@ import './App.css';
 // import Ejemplo2 from './hooks/Ejemplo2';
 // import { MiComponenteConContexto } from './hooks/Ejemplo3';
 import TaskListComponent from './components/container/task.list';
+// import GreetingStyled from './components/pure/greetingStyled';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* <MiComponenteConContexto/> */}
       {/* </div> */}
      <TaskListComponent/>
+     {/* <GreetingStyled name={ 'Carlos' }/> */}
     </div>
   );
 }

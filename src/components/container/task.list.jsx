@@ -7,7 +7,7 @@ const TaskListComponent = () => {
   const defaultTask = new Task(
     "Example",
     "Default Description",
-    false,
+    true,
     LEVELS.NORMAL
   );
 
